@@ -13,14 +13,14 @@ const AboutMe = () => {
 				</div>
 				<div class="row">
 					<div class="col-md-4">
-						<ul class="info">
+						<ul class="info" style={{overflow:"auto"}}>
 							<li><span class="first-block">Full Name:</span><span class="second-block">Govind Kumar</span></li>
 							<li><span class="first-block">Phone:</span><span class="second-block">+91 7905205343</span>
 							</li>
 							<li><span class="first-block">Email:</span><span
 								class="second-block">govind010119@gmail.com</span></li>
 							<li><span class="first-block">linkedin:</span><span
-								class="second-block">https://www.linkedin.com/in/govind-kumar17</span></li>
+								class="second-block">www.linkedin.com/in/govind-kumar-076309388</span></li>
 							<li><span class="first-block">Github:</span><span class="second-block">https://github.com/GovindJoker</span></li>
 						</ul>
 					</div>
@@ -39,7 +39,7 @@ const AboutMe = () => {
 						</p>
 						<p>
 							<ul class="fh5co-social-icons">
-								<li><a href="https://www.linkedin.com/in/govind-kumar17"><FaLinkedin size={25} /> </a></li>
+								<li><a href="www.linkedin.com/in/govind-kumar-076309388"><FaLinkedin size={25} /> </a></li>
 								<li><a href="https://github.com/GovindJoker"><FaGithub size={25} /></a></li>
 								<li><a href="#"><FaTwitter size={25} /></a></li>
 							</ul>

@@ -9,7 +9,7 @@ const Resume = () => {
 					<div class="col-md-8 mar_2 col-md-offset-2 text-center fh5co-heading">
 						<h2>My Resume</h2>
 						{/* `url(${process.env.PUBLIC_URL}/assets/images/user3.jpg)` */}
-						<a className='download_button' href={`${process.env.PUBLIC_URL}/assets/pdf/govind.pdf`}>Download Resume &nbsp; <FaCloudDownloadAlt className='icond' size={20} /></a>
+						<a className='download_button' href={`${process.env.PUBLIC_URL}/assets/pdf/govindkumar.pdf`}>Download Resume &nbsp; <FaCloudDownloadAlt className='icond' size={20} /></a>
 					</div>
 				</div>
 				<div class="row">
@@ -20,11 +20,28 @@ const Resume = () => {
 									<h3>Work Experience</h3>
 								</div>
 							</li>
+							<li class="timeline-unverted ">
+								<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">Web Developer</h3>
+										<span class="company">India InfoSoft Pvt Ltd  &nbsp;&nbsp; Jan 2025 – Present</span>
+									</div>
+									<div class="timeline-body">
+										<h4>Role and responsbilities</h4>
+										<p>• Implement state management solutions using Redux or Context API to manage application state efficiently. </p>
+										<p>• Design and implement reusable, efficient components and front-end libraries for future use. </p>
+										<p>• Develop dynamic web applications and user interfaces using React.js, ensuring seamless user experiences. </p>
+										<p>• Debug and resolve technical issues in a timely manner to maintain the smooth operation of the application</p>
+										<p>• Contribute to project planning and provide input on improving the development process and workflow.</p>
+									</div>
+								</div>
+							</li>
 							<li class="timeline-inverted ">
 								<div class="timeline-badge"><i class="icon-suitcase"></i></div>
 								<div class="timeline-panel">
 									<div class="timeline-heading">
-										<h3 class="timeline-title">Back-End Developer </h3>
+										<h3 class="timeline-title">React Js Developer </h3>
 										<span class="company">Script Space Journals Pvt Ltd  &nbsp;&nbsp; Aug  2024 –Jan 2025</span>
 									</div>
 									<div class="timeline-body">
@@ -43,7 +60,7 @@ const Resume = () => {
 								<div class="timeline-panel">
 									<div class="timeline-heading">
 										<h3 class="timeline-title">React Js Developer</h3>
-										<span class="company">ZonSource IT solutions Pvt Ltd  &nbsp; &nbsp; Feb 2023 - Jan 2024</span>
+										<span class="company">ZonSource IT solutions Pvt Ltd  &nbsp; &nbsp; Aug 2022 - July 2024</span>
 									</div>
 									<div class="timeline-body">
 										<h4>Role and responsbilities</h4>
@@ -55,7 +72,7 @@ const Resume = () => {
 									</div>
 								</div>
 							</li>
-							<li class="timeline-inverted ">
+							{/* <li class="timeline-inverted ">
 								<div class="timeline-badge"><i class="icon-suitcase"></i></div>
 								<div class="timeline-panel">
 									<div class="timeline-heading">
@@ -71,7 +88,7 @@ const Resume = () => {
 										<p>• Contribute to project planning and provide input on improving the development process and workflow.</p>
 									</div>
 								</div>
-							</li>
+							</li> */}
 
 							<br />
 							<li class="timeline-heading text-center ">

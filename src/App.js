@@ -3,6 +3,19 @@ import './App.css';
 import { useState } from 'react';
 import axios from 'axios';
 import Home from './page/Home';
+// <!-- Animate.css -->
+//   <link rel="stylesheet" href="assets/css/animate.css">
+//   <!-- Icomoon Icon Fonts-->
+//   <link rel="stylesheet" href="assets/css/icomoon.css">
+//   <!-- Bootstrap  -->
+//   <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+//   <!-- Theme style  -->
+//   <link rel="stylesheet" href="assets/css/style.css"></link>
+import './assets/css/animate.css'
+import './assets/css/icomoon.css'
+import './assets/css/bootstrap.css'
+import './assets/css/style.css'
 
 function App() {
   const [data,setData]=useState({
