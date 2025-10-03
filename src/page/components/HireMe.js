@@ -11,7 +11,7 @@ const HireMe = () => {
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 						<h2>Hire Me!</h2>
-						<p><a href="https://www.linkedin.com/in/govind-kumar17"><FaLinkedin size={30} /> </a>  &nbsp;
+						<p><a href="https://www.linkedin.com/in/govind-kumar-076309388/"><FaLinkedin size={30} /> </a>  &nbsp;
 							<a href="https://github.com/GovindJoker"><FaGithub size={30} /></a>
 							
 						</p>
