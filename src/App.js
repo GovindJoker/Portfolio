@@ -12,10 +12,10 @@ import Home from './page/Home';
 
 //   <!-- Theme style  -->
 //   <link rel="stylesheet" href="assets/css/style.css"></link>
-import './assets/css/animate.css'
-import './assets/css/icomoon.css'
-import './assets/css/bootstrap.css'
-import './assets/css/style.css'
+// import './assets/css/animate.css'
+// import './assets/css/icomoon.css'
+// import './assets/css/bootstrap.css'
+// import './assets/css/style.css'
 
 function App() {
   const [data,setData]=useState({
