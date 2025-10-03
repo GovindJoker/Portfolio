@@ -1,0 +1,45 @@
+html {
+  scroll-behavior: smooth;
+}
+.download_button{
+  border: 1px solid #2f3c4f;
+    background-color: #2f3c4f;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+}
+.icond{
+  padding-top: 5px;
+}
+.padding {
+  padding: 4em 0 0 0 !important;
+}
+.mar_2{
+  margin-bottom: 2em !important;
+}
+
+.projects {
+  padding: 10px 0px;
+  height: 110px;
+  color: white !important;
+  border: 1px solid white !important;
+  display: block;
+  cursor: pointer;
+
+}
+
+.projects h3 {
+  color: white !important;
+}
+.projectDetails{
+  margin-top: 31px;
+  border-top: 2px solid white;
+  padding: 10px;
+}
+
+.projectSec{
+  padding: 20px 0px 20px 0px !important;
+}
+.margin2top{
+  margin-top: 5px;
+}
